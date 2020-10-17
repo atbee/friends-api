@@ -13,4 +13,11 @@ app.get('/many', (req, res) => {
 app.get('/nine', (req, res) => {
 	res.send('Hello! I am Your friends , I can fly 🐺');
 });
+app.get('/gafair', (req, res) => {
+	res.send('Hi! I am Gafair');
+});
+app.get('/tao', (req, res) => {
+	res.send('hello ! may the force be with you !!');
+});
+
 module.exports = app;
