@@ -19,5 +19,8 @@ app.get('/gafair', (req, res) => {
 app.get('/tao', (req, res) => {
 	res.send('hello ! may the force be with you !!');
 });
+app.get('/atb', (req, res) => {
+	res.send('I am a thibet, nice to meet you again.');
+});
 
 module.exports = app;
