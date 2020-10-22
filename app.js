@@ -25,6 +25,9 @@ app.get('/tao', (req, res) => {
 app.get('/atb', (req, res) => {
 	res.send('I am a thibet, nice to meet you again.');
 });
+app.get('/guutong', (req, res) => {
+	res.send(`<marquee>Hi!, I'm GuutonG. ヾ(⌐■_■)ノ♪</marquee>`);
+});
 app.get('/kodookie', (req, res) => {
 	res.send('Hey man, I am Koh. I’ve enjoyed meeting you.');
 });
